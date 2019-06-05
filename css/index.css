@@ -135,7 +135,9 @@ body {
   height: 100%;
   font-size: 62.5%;
 }
-h1,
+h1 {
+  font-size: 6rem;
+}
 h2 {
   font-size: 4rem;
 }
@@ -177,7 +179,7 @@ h5 {
   display: flex;
   flex-flow: row;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .header .img-top {
     display: none;
   }
